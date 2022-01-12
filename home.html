@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/169/169836.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>Boutique - Ecommerce Website</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navbar__wrapper container">
+      <div class="navbar__logo"><a class="navbar__logo-link" href="/home.html">Boutique Shop</a></div>
+      <ul class="navbar__list">
+        <div class="navbar__top">
+          <label for="" class="navbar__btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li class="navbar__drop-show">
+          <a href="#" class="navbar__desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="navbar__mega-box">
+            <div class="navbar__content">
+              <div class="navbar__row">
+                <img src="assets/images/women-hero.png" alt="" />
+              </div>
+              <div class="navbar__row">
+                <header>Shop Layout</header>
+                <ul class="navbar__mega-links">
+                  <li><a href="#">Shop With Background</a></li>
+                  <li><a href="#">Shop Mini Categories</a></li>
+                  <li><a href="#">Shop Only Categories</a></li>
+                  <li><a href="#">Shop Icon Categories</a></li>
+                </ul>
+              </div>
+              <div class="navbar__row">
+                <header>Filter Layout</header>
+                <ul class="navbar__mega-links">
+                  <li><a href="#">Sidebar</a></li>
+                  <li><a href="#">Filter Default</a></li>
+                  <li><a href="#">Filter Drawer</a></li>
+                  <li><a href="#">Filter Dropdown</a></li>
+                </ul>
+              </div>
+              <div class="navbar__row">
+                <header>Product Layout</header>
+                <ul class="navbar__mega-links">
+                  <li><a href="#">Layout Zoom</a></li>
+                  <li><a href="#">Layout Sticky</a></li>
+                  <li><a href="#">Layout Sticky 2</a></li>
+                  <li><a href="#">Layout Scroll</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li class="navbar__drop-show">
+          <a href="#" class="navbar__desktop-item">Vendors <span><i class="fas fa-chevron-down"></i></span></a>
+          <ul class="navbar__drop-menu1">
+            <li><a href="">Vendor Store listings</a></li>
+            <li><a href="">Store Details</a></li>
+          </ul>
+        </li>
+
+        <li class="navbar__drop-show">
+          <a href="#" class="navbar__desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+          <ul class="navbar__drop-menu2">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Faq</a></li>
+            <li><a href="">Page 404</a></li>
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="navbar__icons">
+          <a href="/cart.html">
+            <img src="https://image.flaticon.com/icons/png/512/972/972535.png" alt="" />
+            <small class="navbar__count d-flex">5</small>
+          </a>
+          <i class="fas fa-search"></i>
+        </li>
+      </ul>
+      <label for="" class="navbar__btn open-btn"><i class="fas fa-th-large"></i></label>
+    </div>
+  </header>
+
+
+ <!-- Hero -->
+ <div class="hero">
+  <div class="hero__left">
+    <span>NEW ARRIVALS</span>
+    <h1>UP TO 50% OFF ON SALES</h1>
+    <small>Don't miss out on campaign opportunities</small>
+    <a href="#">Start Shopping</a>
+  </div>
+  <div class="hero__right">
+    <img src="assets/images/women-hero.png" alt="" />
+  </div>
+</div>
+
+<!-- ADVERT -->
+<section class="section advert">
+  <div class="advert__layout container">
+    <div class="advert__item ">
+      <img src="https://image.freepik.com/free-photo/gorgeous-female-shopaholic-dancing-near-clothes-hangers_197531-7149.jpg" alt="">
+      <div class="advert__content advert__left">
+        <span>Exclusive Sales</span>
+        <h3>Spring Collections</h3>
+        <a href="">View Collection</a>
+      </div>
+    </div>
+    <div class="advert__item">
+      <img src="https://image.freepik.com/free-photo/men-shoes_1303-5889.jpg" alt="">
+      <div class="advert__content  advert__right">
+        <span>New Trending</span>
+        <h3>Designer Bags</h3>
+        <a href="">Shop Now </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Products -->
+<section class="section products">
+  <div class="products__title">
+    <h2>New Products</h2>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, id!</span>
+  </div>
+
+  <div class="products__layout">
+    <a href="/productDetails.html" class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/fashionable-woman-s-stylish-bag-isolated-white-background-beautiful-purple-luxury-leather-female-handbag-luxury-accessories_186202-4487.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <span href="">woman's stylish bag</span>
+        <div class="products__price">
+          <span>$450</span>
+        </div>
+      </div>
+    </a>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/woman-shoes-close-up_1303-12937.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">woman-shoes</a>
+        <div class="products__price">
+          <span>$150</span>
+          <span class="products__cancel">$160</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/pink-handbags_1203-7829.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">pink-handbags</a>
+        <div class="products__price">
+          <span>$150</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://img.freepik.com/free-photo/woman-beige-autumn-boots-standing-isolated-white_186202-2978.jpg?size=338&ext=jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">woman-beige-autumn-boots</a>
+        <div class="products__price">
+          <span>$150</span>
+          <span class="products__cancel">$160</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/portrait-woman-beautiful-grey-dress_1303-13052.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">grey-dress</a>
+        <div class="products__price">
+          <span>$150</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/lady-evening-dress-elegant-woman-long-gown_1157-47531.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">evening-dress-elegant-woman</a>
+
+        <div class="products__price">
+          <span>$150</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/lady-evening-dress-elegant-woman-long-gown_1157-47529.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">evening-dress-elegant-woman</a>
+
+        <div class="products__price">
+          <span>$150</span>
+          <span class="products__cancel">$160</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__product">
+      <div class="products__img-container">
+        <img src="https://image.freepik.com/free-photo/derby-shoes-men-formal-wear_53876-96609.jpg" alt="" />
+        <div class="products__addCart">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <ul class="products__side-icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="far fa-heart"></i></span>
+          <span><i class="fas fa-sliders-h"></i></span>
+        </ul>
+      </div>
+      <div class="products__bottom">
+        <a href="">derby-shoes-men</a>
+        <div class="products__price">
+          <span>$150</span>
+          <span class="products__cancel">$160</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Promotion -->
+<section class="section promotion">
+  <div class="promotion__title">
+    <h2>Shop Collections</h2>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea.</span>
+  </div>
+
+  <div class="promotion__layout container">
+    <div class="promotion__item">
+      <img src="https://image.freepik.com/free-photo/handsome-man-suit_144627-4076.jpg" alt="" />
+      <div class="promotion__content">
+        <h3>FOR MEN</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="promotion__item">
+      <img src="https://image.freepik.com/free-photo/white-high-top-sneakers-unisex-footwear-fashion_53876-106036.jpg" alt="" />
+      <div class="promotion__content">
+        <h3>CASUAL SHOES</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="promotion__item">
+      <img src="https://image.freepik.com/free-photo/high-fashion-look-glamor-closeup-portrait-beautiful-sexy-stylish-caucasian-young-woman-model-with-bright-makeup-with-red-lips-with-perfect-clean-skin-big-black-hat_158538-13488.jpg" alt="" />
+      <div class="promotion__content">
+        <h3>FOR WOMEN</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="promotion__item">
+      <img src="https://image.freepik.com/free-photo/beautiful-woman-fancy-dress-walking-down-street-fashion-beauty-makeup-evening-dress-smiling-girl-posing-model-luxury-wearing-accessories-blonde-volume-hair-lipstick-eyes-perfect_343629-187.jpg" alt="" />
+      <div class="promotion__content">
+        <h3>EVENING DRESS</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="promotion__item">
+      <img src="https://image.freepik.com/free-photo/bag-sunglasses-bench-outdoors_1139-375.jpg" alt="" />
+      <div class="promotion__content">
+        <h3>DESIGNER BAGS</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="promotion__item">
+      <img src="https://img.freepik.com/free-photo/closeup-watch_53876-32028.jpg?size=338&ext=jpg" alt="" />
+      <div class="promotion__content">
+        <h3>WATCHES</h3>
+        <a href="">SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BRANDS -->
+<section class="section brands">
+  <div class="brands__title">
+    <h2>Shop by Brand</h2>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil!</span>
+  </div>
+
+  <div class="brands__layout container">
+    <div class="glide" id="glide1">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="assets/images/brand1.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand2.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand3.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand4.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand5.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand6.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="assets/images/brand7.png" alt="">
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ 
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__container">
+        <div class="footer__center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Gölyazi,2, 55600, Terme, Samsun, Turkey
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            valtadokki@vusra.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +1-202-555-0132
+          </div>
+          <div class="footer__payment-methods">
+            <img src="assets/images/payment.png" alt="">
+          </div>
+        </div>
+        <div class="footer__center">
+          <h3>CATEGORIES</h3>
+          <a href="#">For Men</a>
+          <a href="#">Casual Shoes</a>
+          <a href="#">For Women</a>
+          <a href="#">Evening Dress</a>
+          <a href="#">Watches</a>
+        </div>
+        <div class="footer__center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer__center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Glidejs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
+

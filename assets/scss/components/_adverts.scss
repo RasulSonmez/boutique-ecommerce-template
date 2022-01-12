@@ -1,0 +1,81 @@
+/*=============== ADVERTS ===============*/
+.advert {
+  &__layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      transition: all 300ms ease-in-out;
+    }
+  }
+  &__item {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    color: #ffc107;
+    &:hover::after {
+      background-color: rgba(223, 74, 74, 0.4);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 300ms ease-in-out;
+    }
+  }
+
+  &__item {
+    &:hover .advert__content {
+      color: var(--white);
+    }
+  }
+  &__item {
+    &:hover .advert__content > a {
+      color: var(--white);
+    }
+  }
+  &__item {
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+  &__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    span {
+      display: block;
+      margin-bottom: 1rem;
+      transition: all 300ms ease-in-out;
+    }
+    h3 {
+      font-size: 3rem;
+      font-weight: inherit;
+      margin-bottom: 1rem;
+      transition: all 300ms ease-in-out;
+    }
+    a {
+      transition: all 300ms ease-in-out;
+      color: #ffc107;
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+  &__left {
+    right: 4%;
+  }
+
+  &__right {
+    left: 10%;
+  }
+}
