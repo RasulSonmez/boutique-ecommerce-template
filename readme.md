@@ -12,7 +12,7 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - It contains a Header, Home, About,Products, FAQs, Contact and Footer etc.
 
-### [Live Website](https://plants-theme-rs.netlify.app/)
+### [Live Website](https://boutique-ecommerce-temp-rs.netlify.app/)
 
 ## Used packages cdn
 
